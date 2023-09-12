@@ -4,7 +4,7 @@
     "type": "git",
     "url": "git+https://github.com/Joybaruah/paginator.git"
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Writen in typescript, use this to Paginate Mongo Model",
   "main": "index.js",
   "scripts": {
@@ -27,6 +27,7 @@
     "ts-node": "^10.9.1",
     "typescript": "^5.2.2"
   },
+  "types": "./index.d.ts",
   "bugs": {
     "url": "https://github.com/Joybaruah/paginator/issues"
   },
