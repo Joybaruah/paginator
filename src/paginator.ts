@@ -1,4 +1,4 @@
-import { PaginatedResponse } from "./response";
+import { PaginatedResponse } from "./types/response";
 import mongoose, { Query, Document } from "mongoose";
 
   

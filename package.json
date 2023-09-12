@@ -27,7 +27,7 @@
     "ts-node": "^10.9.1",
     "typescript": "^5.2.2"
   },
-  "types": "./index.d.ts",
+  "types": "./types/index.d.ts",
   "bugs": {
     "url": "https://github.com/Joybaruah/paginator/issues"
   },
