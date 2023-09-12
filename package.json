@@ -4,7 +4,7 @@
     "type": "git",
     "url": "git+https://github.com/Joybaruah/paginator.git"
   },
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Writen in typescript, use this to Paginate Mongo Model",
   "main": "index.js",
   "scripts": {
@@ -32,7 +32,7 @@
     "url": "https://github.com/Joybaruah/paginator/issues"
   },
   "homepage": "https://github.com/Joybaruah/paginator#readme",
-  "engines" : {
-    "node" : ">=16.0.0"
+  "engines": {
+    "node": ">=16.0.0"
   }
 }
