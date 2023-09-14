@@ -1,12 +1,17 @@
 import mongoose, { Query, Document } from "mongoose";
-import { PaginatedResponse } from "./types/types";
+
+export interface PaginatedResponse {
+  result: Document[];
+  hasNextPage: Boolean;
+  hasPreviousPage: Boolean;
+}
 
 /**
  * Represents a paginator to get paginated response using mongoose model.
  * This class helps with managing pagination for a given Mongoose model.
  */
 
-export default class Paginator {
+export class Paginator {
   private query: Query<Document[], Document>;
 
   /**

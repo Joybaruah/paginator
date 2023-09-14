@@ -6,10 +6,10 @@
   },
   "version": "1.0.4",
   "description": "Writen in typescript, use this to Paginate Mongo Model",
-  "main": "index.js",
+  "main": "build/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "ts-node ./src/index.ts"
+    "build": "tsc",
+    "prepare": "npm run build"
   },
   "keywords": [
     "mongoose",
@@ -27,7 +27,7 @@
     "ts-node": "^10.9.1",
     "typescript": "^5.2.2"
   },
-  "types": "./types/index.d.ts",
+  "types": "build/index.d.ts",
   "bugs": {
     "url": "https://github.com/Joybaruah/paginator/issues"
   },
